@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #200122, #6f0000); 
+    color: white;
+    font-family: "Press Start 2P", cursive;
+    min-height: 100vh;
+}
+
+header {
+    font-size: .75rem;
+}
+
+header, 
+form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, 
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+    height: 50px;
+}
+
+form button {
+    color: #6f0000;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #6f0000;
+    color: white;
+}
