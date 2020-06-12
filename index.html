@@ -8,12 +8,24 @@
     <link rel="stylesheet" href="style.css">
     <!--- 8 Bit Google Font --->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>To Do List</title>
 </head>
 <body>
     <header>
         <h1>Iann's To Do List</h1>
     </header>
+    <div class="fix alert hide">
+    <div class="errorMsg " id = "errorMsg">
+        
+        <span class="fas fa-exclaimation-circle"></span>
+        <span class="msg">Warning: Invalid input</span>
+        <div class="close-btn">
+            <span class="fas fa-times"></span> 
+        </div>
+    
+    </div>
+</div>
     <form>
         <input type="text" class="todo-input">
         <button class="todo-button" type="submit">
@@ -30,6 +42,7 @@
     <div class="todo-container">
         <ul class="todo-list"></ul>
     </div>
+    
     <script src ="main.js"></script>
 </body>
 </html> 
